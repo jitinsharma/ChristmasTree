@@ -31,6 +31,10 @@ fun ChristmasTree() {
         contentAlignment = Alignment.TopCenter,
         modifier = Modifier.fillMaxSize()
     ) {
+        Snow(modifier = Modifier
+            .align(Alignment.TopStart)
+            .padding(start = 4.dp, end = 4.dp)
+        )
         Star(
             modifier = Modifier
                 .padding(top = 70.dp)
